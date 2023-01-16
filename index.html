@@ -27,7 +27,11 @@
        />
        <div class="card-body">
         <h5 class="card-title">{{item.title}}</h5>
-        <a href="#" class="btn btn-primary">Play</a>
+        <a
+         v-bind:href="'https://www.dailymotion.com/video/'+item.id"
+         class="btn btn-primary"
+         >Play</a
+        >
        </div>
       </div>
      </div>
